@@ -147,12 +147,11 @@ h1 {
 }
 
 .box {
-    border: black solid;
-    padding: .5em 1.5em;
+    border: black solid 1px;
     margin: 1em;
-    border-radius: .5em;
     background-color: wheat;
     position: relative;
+    padding-top: 0;
 }
 
 .content-name {
@@ -166,11 +165,25 @@ h1 {
     position: relative;
     float: right;
     font-size: 1.25rem;
-    border: rgb(231, 231, 185) solid;
+    border: rgb(0, 0, 0) solid 1px;
+    margin-top: 0;
 }
 
 .content {
     display: inline-block;
+    margin: 0 1em 1em;
+}
+
+.name1 {
+    background-color: darkseagreen;
+}
+
+.name2 {
+    background-color: rgb(109, 203, 235);
+}
+
+.name3 {
+    background-color: rgb(124, 146, 175);
 }
 
 
